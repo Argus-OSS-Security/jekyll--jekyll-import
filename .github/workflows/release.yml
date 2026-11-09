@@ -1,12 +1,13 @@
 name: Release Gem
 
-on:
-  push:
-    branches:
-      - master
-    paths:
-      - "lib/**/version.rb"
-
+# Triggers intentionally disabled for Argus-OSS-Security.
+# on:
+#   push:
+#     branches:
+#       - master
+#     paths:
+#       - "lib/**/version.rb"
+# 
 jobs:
   release:
     if: "github.repository_owner == 'jekyll'"

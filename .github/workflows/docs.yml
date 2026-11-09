@@ -1,10 +1,11 @@
 name: Build and deploy Documentation site
 
-on:
-  push:
-    branches:
-      - master
-
+# Triggers intentionally disabled for Argus-OSS-Security.
+# on:
+#   push:
+#     branches:
+#       - master
+# 
 env:
   RUBY_VERSION: 2.7
   
